@@ -5,7 +5,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>application</module>
-		<module>chess-td-server-service</module>
+		<module>service</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -14,10 +14,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.boiz</groupId>
-	<artifactId>chess-td-server</artifactId>
+	<groupId>jakedavison</groupId>
+	<artifactId>project-name-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>chess-td-server</name>
 
 	<properties>
 		<java.version>15</java.version>

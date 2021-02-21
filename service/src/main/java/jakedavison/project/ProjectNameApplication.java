@@ -1,13 +1,13 @@
-package com.boiz.chesstd;
+package jakedavison.project;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ChessTdServerApplication {
+public class ProjectNameApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ChessTdServerApplication.class, args);
+		SpringApplication.run(ProjectNameApplication.class, args);
 	}
 
 }

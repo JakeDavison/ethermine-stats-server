@@ -1,10 +1,10 @@
-package src.test.java.com.boiz.chesstdserver;
+package jakedavison.project;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ChessTdServerApplicationTests {
+class ProjectNameApplicationTests {
 
 	@Test
 	void contextLoads() {

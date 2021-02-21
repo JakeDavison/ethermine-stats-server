@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>chess-td-server</artifactId>
-        <groupId>com.boiz</groupId>
+        <artifactId>project-name-parent</artifactId>
+        <groupId>jakedavison</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>chess-td-server-service</artifactId>
+    <artifactId>project-name-service</artifactId>
 
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
@@ -33,8 +33,8 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.boiz</groupId>
-            <artifactId>chess-td-server-application</artifactId>
+            <groupId>jakedavison</groupId>
+            <artifactId>project-name-application</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
