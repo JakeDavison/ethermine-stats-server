@@ -6,7 +6,8 @@
 	<modules>
 		<module>application</module>
 		<module>service</module>
-	</modules>
+        <module>repository</module>
+    </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -15,7 +16,7 @@
 	</parent>
 
 	<groupId>jakedavison</groupId>
-	<artifactId>project-name-parent</artifactId>
+	<artifactId>ethermine-stats-server-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
